@@ -1,5 +1,5 @@
-import { Suits } from "../common/Constants";
-import { CardContext } from "../@types/playing-card"
+import { PlayingCardSuits } from "../common/Constants";
+import { CardContext } from "../types/index"
 
 export const shuffleCards = (Deck: CardContext[]) => {
 	for (let i = Deck.length - 1; i >= 0; i--) {
@@ -9,11 +9,10 @@ export const shuffleCards = (Deck: CardContext[]) => {
 	return Deck;
 };
 
-
 export const getCardStyleFromSuit = (suit: String) => {
-	if (suit === Suits.diamond || suit === Suits.heart) {
+	if (suit === PlayingCardSuits.diamond || suit === PlayingCardSuits.heart) {
 		return "card__textred";
-	} else if (suit === Suits.spade || suit === Suits.club) {
+	} else if (suit === PlayingCardSuits.spade || suit === PlayingCardSuits.club) {
 		return "card__textblack";
 	}
 	return "";

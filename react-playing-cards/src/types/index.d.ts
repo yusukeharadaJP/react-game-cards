@@ -16,5 +16,4 @@ export declare const Suits: {
 export interface CardContext {
   suit: String;
   number: Number;
-  isFaceDown: Boolean;
 }

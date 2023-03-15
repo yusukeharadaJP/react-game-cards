@@ -1,4 +1,4 @@
-export const Deck = [
+export const PlayingCardDeck = [
     { suit: "♦", number: 1, },
     { suit: "♦", number: 2, },
     { suit: "♦", number: 3, },
@@ -53,7 +53,7 @@ export const Deck = [
     { suit: "♥", number: 13, },
 ];
 
-export const Suits = {
+export const PlayingCardSuits = {
     diamond: "♦",
     club: "♣",
     spade: "♠",
