@@ -1,5 +1,5 @@
 {
-  "name": "reactts-playing-cards",
+  "name": "reactts-playing-card",
   "version": "0.0.1",
   "description": "",
   "main": "./dist/components/PlayingCard.js",
