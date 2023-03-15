@@ -1,5 +1,5 @@
 {
-  "name": "reactts-playing-card",
+  "name": "react-game-cards",
   "version": "0.0.1",
   "description": "",
   "main": "./dist/components/PlayingCard.js",
