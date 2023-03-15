@@ -1,12 +1,4 @@
 // / <reference types="react" />
-export interface Table {
-  stock: CardInfo[];
-  foundation_diamond: CardInfo[];
-  foundation_club: CardInfo[];
-  foundation_spade: CardInfo[];
-  foundation_heart: CardInfo[];
-  piles: CardInfo[][];
-}
 export declare const Suits: {
   diamond: string;
   club: string;
