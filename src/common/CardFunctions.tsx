@@ -1,5 +1,5 @@
 import { PlayingCardSuits } from "../common/Constants";
-import { CardContext } from "../types/react-playing-cards/index"
+import { CardContext } from "../../types/reactts-playing-cards/index"
 
 export const shuffleCards = (Deck: CardContext[]) => {
 	for (let i = Deck.length - 1; i >= 0; i--) {

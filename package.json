@@ -1,12 +1,16 @@
 {
-  "name": "react-playing-cards",
-  "version": "1.0.0",
+  "name": "reactts-playing-cards",
+  "version": "0.0.1",
   "description": "",
-  "main": "./src/components/PlayingCard",
+  "main": "./dist/components/PlayingCard.js",
   "scripts": {
     "build": "tsc"
   },
-  "author": "",
+  "files": [
+    "dist",
+    "types"
+  ],
+  "author": "yusuke harada",
   "license": "MIT",
   "devDependencies": {
     "@types/react": "^18.0.28",
@@ -14,5 +18,6 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "typescript": "^4.9.5"
-  }
+  },
+  "types": "./types/react-custom-text-field/index.d.ts"
 }

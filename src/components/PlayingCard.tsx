@@ -1,4 +1,4 @@
-import { CardContext } from "../types/react-playing-cards/index";
+import { CardContext } from "../../types/reactts-playing-cards/index";
 import { getCardStyleFromSuit, getCardString } from "../common/CardFunctions";
 import "../style/PlayingCard.css";
 
