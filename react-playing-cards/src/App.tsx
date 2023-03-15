@@ -1,11 +1,11 @@
-import Card from "./components/Card";
+import PlayingCard from "./components/PlayingCard";
 import { PlayingCardDeck } from "./common/Constants";
 
 function App() {
   let card = PlayingCardDeck[12]
   return (
     <>
-      <Card cardContext={card} isFaceDown={true} />
+      <PlayingCard cardContext={card} isFaceDown={true} />
     </>
   );
 }

@@ -1,12 +1,12 @@
 import { CardContext } from "../types/index";
 import { getCardStyleFromSuit, getCardString } from "../common/CardFunctions";
-import "../style/Card.css";
+import "../style/PlayingCard.css";
 
 type CardProps = {
 	cardContext: CardContext, isFaceDown: boolean
 }
 
-export const Card = ({ cardContext, isFaceDown }: CardProps) => {
+export const PlayingCard = ({ cardContext, isFaceDown }: CardProps) => {
 	return (
 		<>
 			<div className={"card " + (isFaceDown ? "" : "card--facedown")}>
@@ -25,4 +25,4 @@ export const Card = ({ cardContext, isFaceDown }: CardProps) => {
 	);
 };
 
-export default Card;
+export default PlayingCard;
